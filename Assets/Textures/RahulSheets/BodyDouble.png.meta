@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: afdba8f6e3c2e7646a2ebb824d80f443
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BodyDouble_0
+      rect:
+        serializedVersion: 2
+        x: 5272
+        y: 4694
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_1
+      rect:
+        serializedVersion: 2
+        x: 5314
+        y: 4694
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_2
+      rect:
+        serializedVersion: 2
+        x: 5351
+        y: 4694
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_3
+      rect:
+        serializedVersion: 2
+        x: 5394
+        y: 4694
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_4
+      rect:
+        serializedVersion: 2
+        x: 5272
+        y: 4651
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_5
+      rect:
+        serializedVersion: 2
+        x: 5314
+        y: 4656
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_6
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 3686
+        width: 467
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_7
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 3686
+        width: 472
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_8
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 3681
+        width: 424
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_9
+      rect:
+        serializedVersion: 2
+        x: 2902
+        y: 3681
+        width: 350
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_10
+      rect:
+        serializedVersion: 2
+        x: 3777
+        y: 3681
+        width: 360
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_11
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 3686
+        width: 318
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_12
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2504
+        width: 318
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_13
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 2504
+        width: 297
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_14
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 2499
+        width: 329
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_15
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 2499
+        width: 328
+        height: 737
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_16
+      rect:
+        serializedVersion: 2
+        x: 3777
+        y: 2499
+        width: 429
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_17
+      rect:
+        serializedVersion: 2
+        x: 4710
+        y: 2504
+        width: 297
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_18
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1322
+        width: 467
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_19
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1317
+        width: 429
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_20
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 1322
+        width: 418
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_21
+      rect:
+        serializedVersion: 2
+        x: 2902
+        y: 1317
+        width: 350
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_22
+      rect:
+        serializedVersion: 2
+        x: 3777
+        y: 1317
+        width: 360
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_23
+      rect:
+        serializedVersion: 2
+        x: 4689
+        y: 1317
+        width: 328
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_24
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 135
+        width: 328
+        height: 737
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BodyDouble_25
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 140
+        width: 472
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

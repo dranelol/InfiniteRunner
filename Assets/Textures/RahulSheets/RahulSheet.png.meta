@@ -1,0 +1,465 @@
+fileFormatVersion: 2
+guid: 3f2e0d66da0e01d43a057cbcba606319
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RahulSheet_0
+    21300002: RahulSheet_1
+    21300004: RahulSheet_2
+    21300006: RahulSheet_3
+    21300008: RahulSheet_4
+    21300010: RahulSheet_5
+    21300012: RahulSheet_6
+    21300014: RahulSheet_7
+    21300016: RahulSheet_8
+    21300018: RahulSheet_9
+    21300020: RahulSheet_10
+    21300022: RahulSheet_11
+    21300024: RahulSheet_12
+    21300026: RahulSheet_13
+    21300028: RahulSheet_14
+    21300030: RahulSheet_15
+    21300032: RahulSheet_16
+    21300034: RahulSheet_17
+    21300036: RahulSheet_18
+    21300038: RahulSheet_19
+    21300040: RahulSheet_20
+    21300042: RahulSheet_21
+    21300044: RahulSheet_22
+    21300046: RahulSheet_23
+    21300048: RahulSheet_24
+    21300050: RahulSheet_25
+    21300052: RahulSheet_26
+    21300054: RahulSheet_27
+    21300056: RahulSheet_28
+    21300058: RahulSheet_29
+    21300060: RahulSheet_30
+    21300062: RahulSheet_31
+    21300064: RahulSheet_32
+    21300066: RahulSheet_33
+    21300068: RahulSheet_34
+    21300070: RahulSheet_35
+    21300072: RahulSheet_36
+    21300074: RahulSheet_37
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 512
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RahulSheet_0
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 4818
+        width: 465
+        height: 648
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 4825
+        width: 423
+        height: 669
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_2
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 4825
+        width: 352
+        height: 740
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 4825
+        width: 353
+        height: 768
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_4
+      rect:
+        serializedVersion: 2
+        x: 3909
+        y: 4846
+        width: 310
+        height: 733
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_5
+      rect:
+        serializedVersion: 2
+        x: 4818
+        y: 4825
+        width: 296
+        height: 740
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_6
+      rect:
+        serializedVersion: 2
+        x: 5706
+        y: 4825
+        width: 331
+        height: 733
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_7
+      rect:
+        serializedVersion: 2
+        x: 6552
+        y: 4825
+        width: 437
+        height: 697
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_8
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 3626
+        width: 465
+        height: 642
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 3619
+        width: 423
+        height: 670
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_10
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 3619
+        width: 345
+        height: 740
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_11
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 3619
+        width: 353
+        height: 769
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_12
+      rect:
+        serializedVersion: 2
+        x: 3902
+        y: 3619
+        width: 324
+        height: 740
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_13
+      rect:
+        serializedVersion: 2
+        x: 4819
+        y: 3619
+        width: 295
+        height: 747
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_14
+      rect:
+        serializedVersion: 2
+        x: 5699
+        y: 3619
+        width: 338
+        height: 740
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_15
+      rect:
+        serializedVersion: 2
+        x: 6552
+        y: 3626
+        width: 437
+        height: 691
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_16
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 2421
+        width: 465
+        height: 645
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 2421
+        width: 423
+        height: 670
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_18
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2421
+        width: 423
+        height: 705
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_19
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 2421
+        width: 339
+        height: 670
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_20
+      rect:
+        serializedVersion: 2
+        x: 3785
+        y: 2425
+        width: 564
+        height: 726
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_21
+      rect:
+        serializedVersion: 2
+        x: 4761
+        y: 2421
+        width: 409
+        height: 811
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_22
+      rect:
+        serializedVersion: 2
+        x: 5572
+        y: 2421
+        width: 592
+        height: 754
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_23
+      rect:
+        serializedVersion: 2
+        x: 6524
+        y: 2421
+        width: 493
+        height: 811
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_24
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1216
+        width: 367
+        height: 810
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1216
+        width: 487
+        height: 768
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_26
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 1223
+        width: 395
+        height: 641
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_27
+      rect:
+        serializedVersion: 2
+        x: 3013
+        y: 1216
+        width: 303
+        height: 683
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_28
+      rect:
+        serializedVersion: 2
+        x: 3775
+        y: 1336
+        width: 472
+        height: 627
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_29
+      rect:
+        serializedVersion: 2
+        x: 4712
+        y: 1336
+        width: 430
+        height: 641
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_30
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 1336
+        width: 339
+        height: 704
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_31
+      rect:
+        serializedVersion: 2
+        x: 6545
+        y: 1336
+        width: 317
+        height: 746
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_32
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 137
+        width: 317
+        height: 733
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_33
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 137
+        width: 303
+        height: 729
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_34
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 130
+        width: 367
+        height: 755
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_35
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 130
+        width: 367
+        height: 755
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_36
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 130
+        width: 444
+        height: 642
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RahulSheet_37
+      rect:
+        serializedVersion: 2
+        x: 4515
+        y: 137
+        width: 472
+        height: 642
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
