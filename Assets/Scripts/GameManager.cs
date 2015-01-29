@@ -55,7 +55,6 @@ public class GameManager : MonoBehaviour
 
     Player player;
     GameObject crowd;
-    Player playerScript;
 
     void Awake()
     {
@@ -65,7 +64,6 @@ public class GameManager : MonoBehaviour
         crowd = GameObject.FindGameObjectWithTag("Crowd");
         
 
-        playerScript = player.GetComponent<Player>();
     }
 
 	void Start () 
@@ -75,6 +73,7 @@ public class GameManager : MonoBehaviour
         Messenger.AddListener<int>("ScoreChanged", ScoreChange);
         Messenger.AddListener("CrowdCatch", Lose);
         Messenger.AddListener("Pause", Pause);
+        Messenger.AddListener("BodyDoubleHitCrowd", UseBodyDouble);
 
         playerSpeedLerpGoal = 2.0f;
 
@@ -337,38 +336,27 @@ public class GameManager : MonoBehaviour
 
     public void UseDisguise()
     {
-        if(player.Disguises > 0)
-        {
-            player.Disguises -= 1;
-            DisguiseLevel = 0.5f;
-        }
+        player.Disguises -= 1;
+        DisguiseLevel = 0.5f;
     }
 
     public void UseBodyDouble()
     {
-        if (player.BodyDoubles > 0 && BodyDoubleUsed == false)
-        {
-            player.BodyDoubles -= 1;
-            BodyDoubleUsed = true;
-            Messenger.Broadcast("BodyDoubleUsed");
-            StartCoroutine(BodyDouble());
-            
-        }
+        StartCoroutine(BodyDouble());
     }
 
     IEnumerator BodyDouble()
     {
-        StopCoroutine(CrowdLerpSpeed());
+        //StopCoroutine(CrowdLerpSpeed());
+        //StopAllCoroutines();
         float previousCrowdSpeed = CrowdSpeedMultiplier;
-
+        BodyDoubleUsed = true;
         CrowdSpeedMultiplier = 0.0f;
-
+        Debug.Log("crowd waiting...");
         yield return new WaitForSeconds(BodyDoubleDuration);
-
+        Debug.Log("crowd done waiting");
         CrowdSpeedMultiplier = previousCrowdSpeed;
-
         BodyDoubleUsed = false;
-
         Messenger.Broadcast("BodyDoubleDone");
         yield return null;
     }

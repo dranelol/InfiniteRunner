@@ -38,6 +38,8 @@ public class Player : MonoBehaviour
 
 
     public bool SideBlindersActive = false;
+
+    public GameObject BodyDoubleProjectile;
     void Awake()
     {
         animator = GetComponent<Animator>();
@@ -126,7 +128,13 @@ public class Player : MonoBehaviour
                 rigidbody2D.AddForce(new Vector2(0, JumpForce));
             }
 
-            if (grounded == true)
+
+            if (animator.GetCurrentAnimatorStateInfo(0).IsName("RahulHairFlip"))
+            {
+                animator.speed = 1.0f;
+            }
+
+            else if (grounded == true)
             {
                 animator.speed = gameManager.PlayerSpeedMultiplier;
             }
@@ -159,6 +167,7 @@ public class Player : MonoBehaviour
         if (powerup == "BodyDouble")
         {
             BodyDoubles += 1;
+            Instantiate(BodyDoubleProjectile, transform.position, Quaternion.identity);
         }
 
         if (powerup == "Disguise")
