@@ -16,3 +16,4 @@ obj/Debug/*
 obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 *.unityproj
+*.csproj
