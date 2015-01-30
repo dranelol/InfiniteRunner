@@ -16,10 +16,15 @@ public class Player : MonoBehaviour
     float groundRadius = 0.2f;
 
     public LayerMask GroundLayer;
+    public LayerMask PlatformLayer;
 
     public float JumpForce = 700;
 
     GameManager gameManager;
+
+    public float DeadZone = 0.1f;
+    float gravity = 0.0f;
+    
 
     
 
@@ -61,7 +66,7 @@ public class Player : MonoBehaviour
         rigidbody2D.fixedAngle = false;
 
         Messenger.AddListener<string>("PowerupGained", GainPowerup);
-
+        gravity = rigidbody2D.gravityScale;
 	}
 
     void FixedUpdate()
@@ -71,6 +76,10 @@ public class Player : MonoBehaviour
 
             // check for grounded
             bool groundedThisFrame = Physics2D.OverlapCircle(groundCheck.position, groundRadius, GroundLayer);
+            bool groundedOnPlatform = Physics2D.OverlapCircle(groundCheck.position, groundRadius, PlatformLayer);
+
+            Debug.Log("grounded this frame: " + groundedThisFrame);
+            Debug.Log("platform grounded: " + groundedOnPlatform);
 
             if (grounded == false && groundedThisFrame == true)
             {
@@ -85,13 +94,30 @@ public class Player : MonoBehaviour
 
             }
 
+            if (grounded == false && groundedOnPlatform == true && rigidbody2D.velocity.y < 0)
+            {
+                // spawn landing particle system
+                Debug.Log("landed on platform");
+                Instantiate(JumpLandDustParticles, DustSpawnPoint.position, Quaternion.Euler(-90, 0, 0));
+
+                animator.SetBool("jumping", false);
+            }
+
             if (grounded == true && groundedThisFrame == false)
             {
                 animator.SetBool("jumping", true);
 
             }
 
+
+
             grounded = groundedThisFrame;
+
+            if (groundedOnPlatform == true && rigidbody2D.velocity.y <= 0)
+            {
+                animator.SetBool("jumping", false);
+                grounded = true;
+            }
             //set ground in our Animator to match grounded
             //anim.SetBool("Ground", grounded);
         }
@@ -212,6 +238,31 @@ public class Player : MonoBehaviour
         SideBlindersActive = false;
 
         yield return null;
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Platform")
+        {
+            float maxDistance = (col.transform.localScale.y + transform.localScale.y) / 2.0f;
+            if (rigidbody2D.velocity.y < 0 &&
+                transform.position.y - col.transform.position.y - rigidbody2D.velocity.y * Time.fixedDeltaTime > maxDistance - DeadZone)
+            {
+                rigidbody2D.gravityScale = 0;
+                rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, 0);
+                //animator.SetBool("jumping", false);
+                //grounded = true;
+                //transform.position = new Vector3(transform.position.x, col.transform.position.y + maxDistance, transform.position.z);
+            }
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Platform")
+        {
+            rigidbody2D.gravityScale = gravity;
+        }
     }
 
 
