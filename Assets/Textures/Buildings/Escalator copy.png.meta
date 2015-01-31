@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6b985a02f7d0eb1449d1fe13117f89a4
+guid: 0789c8e36c8dbbe45a6de0d7a74e70fe
 TextureImporter:
   serializedVersion: 2
   mipmaps:
@@ -36,21 +36,21 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 200
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Escalator_0
+    - name: Escalator copy_0
       rect:
         serializedVersion: 2
-        x: 274
-        y: 433
-        width: 774
-        height: 316
+        x: 472
+        y: 741
+        width: 1058
+        height: 547
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

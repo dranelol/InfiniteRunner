@@ -74,7 +74,6 @@ public class MoveSprites : MonoBehaviour
         Debug.Log("starting");
         foreach (Transform child in transform)
         {
-            Debug.Log("asd");
 
             if (StartActive == false)
             {
@@ -196,16 +195,20 @@ public class MoveSprites : MonoBehaviour
 
         foreach (GameObject group in ActiveGroups)
         {
-            float roomWidth = 0;
+            SpriteGroupData groupData = group.GetComponent<SpriteGroupData>();
 
-            if (CollisionGroup == true)
+            float roomWidth = 0.0f;
+
+            Transform width = group.transform.Find("Width");
+
+            if (width != null)
             {
-                roomWidth = group.transform.FindChild("GroundCollider").localScale.x;
+                roomWidth = width.localScale.x;
             }
 
             else
             {
-                roomWidth = group.transform.FindChild("Width").localScale.x;
+                roomWidth = groupData.GroupTileWidth * (groupData.GroupTileSize / 100);
             }
 
             float roomStartX = group.transform.position.x - (roomWidth * 0.5f);
@@ -287,20 +290,23 @@ public class MoveSprites : MonoBehaviour
 
         ActiveGroups.Add(newGroup);
 
-        float roomWidth = 0;
+        float roomWidth = 0.0f;
 
-        if (CollisionGroup == true)
+        Transform width = newGroup.transform.Find("Width");
+
+        if (width != null)
         {
-            roomWidth = newGroup.transform.FindChild("GroundCollider").localScale.x;
+            roomWidth = width.localScale.x;
         }
 
         else
         {
-            roomWidth = newGroup.transform.FindChild("Width").localScale.x;
+            roomWidth = groupData.GroupTileWidth * (groupData.GroupTileSize / 100);
         }
-
+        
         float roomCenter = furthestRoomEndX + roomWidth * 0.5f;
 
+        
         newGroup.transform.position = new Vector3(roomCenter, newGroup.transform.position.y, newGroup.transform.position.z);
     }
 

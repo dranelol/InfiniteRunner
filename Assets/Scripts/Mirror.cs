@@ -18,7 +18,7 @@ public class Mirror : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
 
-        if (col.gameObject.tag == "Player")
+        if (col.gameObject.tag == "Player" && col.gameObject.name != "FeetCollider" )
         {
             if(col.gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("RahulWalk 0"))
             {

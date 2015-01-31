@@ -366,11 +366,13 @@ public class GameManager : MonoBehaviour
         if (isPowerup == true)
         {
             // spawn random powerup
-            Debug.Log("generating powerup");
             GameObject powerup = (GameObject)Instantiate(Powerups[Random.Range(0, Powerups.Count)], orig.transform.localPosition, Quaternion.identity);
 
-            powerup.transform.position = orig.transform.position;
             powerup.transform.parent = orig.transform;
+            powerup.transform.position = new Vector3(orig.transform.position.x, powerup.transform.position.y, powerup.transform.position.z);
+            //powerup.transform.position = orig.transform.position;
+            //powerup.transform.position = new Vector3(0, orig.transform.position.y, orig.transform.position.z);
+            
         }
 
         else
@@ -381,16 +383,18 @@ public class GameManager : MonoBehaviour
 
             if(rng >= 0.0f && rng <= 0.3f)
             {
-                Debug.Log("generating powerup");
                 GameObject powerup = (GameObject)Instantiate(Powerups[Random.Range(0, Powerups.Count)], orig.transform.localPosition, Quaternion.identity);
                 powerup.transform.parent = orig.transform;
+                powerup.transform.position = new Vector3(orig.transform.position.x, powerup.transform.position.y, powerup.transform.position.z);
+                //powerup.transform.position = new Vector3(0, orig.transform.position.y, orig.transform.position.z);
             }
 
             else
             {
-                Debug.Log("generating obstacle");
                 GameObject obstacle = (GameObject)Instantiate(Obstacles[Random.Range(0, Obstacles.Count)], orig.transform.localPosition, Quaternion.identity);
                 obstacle.transform.parent = orig.transform;
+                obstacle.transform.position = new Vector3(orig.transform.position.x, obstacle.transform.position.y, obstacle.transform.position.z);
+                //obstacle.transform.position = new Vector3(0, orig.transform.position.y, orig.transform.position.z);
             }
         }
     }

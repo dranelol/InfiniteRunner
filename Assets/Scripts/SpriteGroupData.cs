@@ -7,6 +7,10 @@ public class SpriteGroupData : MonoBehaviour
     int activeSprites = 0;
     int inactiveSprites = 0;
 
+    public int GroupTileWidth;
+    public int GroupTileSize;
+
+
     List<GameObject> sprites = new List<GameObject>();
 
     public List<GameObject> ObjectsInGroup = new List<GameObject>();

@@ -24,8 +24,8 @@ public class Player : MonoBehaviour
 
     public float DeadZone = 0.1f;
     float gravity = 0.0f;
-    
 
+    float playerStartX;
     
 
     public GameObject JumpLandDustParticles;
@@ -45,6 +45,9 @@ public class Player : MonoBehaviour
     public bool SideBlindersActive = false;
 
     public GameObject BodyDoubleProjectile;
+
+    bool isCorrectingX;
+    float timeStartCorrectingX;
     void Awake()
     {
         animator = GetComponent<Animator>();
@@ -67,6 +70,10 @@ public class Player : MonoBehaviour
 
         Messenger.AddListener<string>("PowerupGained", GainPowerup);
         gravity = rigidbody2D.gravityScale;
+
+        playerStartX = transform.position.x;
+
+        
 	}
 
     void FixedUpdate()
@@ -78,8 +85,8 @@ public class Player : MonoBehaviour
             bool groundedThisFrame = Physics2D.OverlapCircle(groundCheck.position, groundRadius, GroundLayer);
             bool groundedOnPlatform = Physics2D.OverlapCircle(groundCheck.position, groundRadius, PlatformLayer);
 
-            Debug.Log("grounded this frame: " + groundedThisFrame);
-            Debug.Log("platform grounded: " + groundedOnPlatform);
+            //Debug.Log("grounded this frame: " + groundedThisFrame);
+            //Debug.Log("platform grounded: " + groundedOnPlatform);
 
             if (grounded == false && groundedThisFrame == true)
             {
@@ -171,8 +178,37 @@ public class Player : MonoBehaviour
             }
         }
 
-        
+        if (isCorrectingX == false && Mathf.Abs(playerStartX - transform.position.x) > 1.5f)
+        {
+
+            isCorrectingX = true;
+            timeStartCorrectingX = Time.time;
+            StartCoroutine(correctX());
+        }
 	}
+
+    IEnumerator correctX()
+    {
+        Debug.Log("correcting X position...");
+        Debug.Log("need to correct " + Mathf.Abs(playerStartX - transform.position.x) + " units");
+        Debug.Log("StartX: " + playerStartX);
+
+       
+
+        while (Mathf.Abs(playerStartX - transform.position.x) > 0.1f)
+        {
+            Debug.Log("correcting");
+            transform.position = new Vector3(Mathf.MoveTowards(transform.position.x, playerStartX, 0.02f), transform.position.y, transform.position.z);
+
+            yield return 0;
+        }
+
+        yield return new WaitForSeconds(1.0f);
+        isCorrectingX = false;
+
+        Debug.Log("correcting done");
+        yield return null;
+    }
 
     void UnPause()
     {
