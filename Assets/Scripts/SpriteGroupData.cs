@@ -63,5 +63,16 @@ public class SpriteGroupData : MonoBehaviour
         }
     }
 
+    public void DespawnObjects()
+    {
+        foreach (GameObject obj in ObjectsInGroup)
+        {
+            foreach (Transform child in obj.transform)
+            {
+                Destroy(child.gameObject);
+            }
+        }
+    }
+
     
 }

@@ -173,6 +173,16 @@ public class MoveSprites : MonoBehaviour
             foreach (Transform child in group.transform)
             {
                 child.gameObject.SetActive(true);
+
+                // clear spawned-in powerups or obstacles
+                if (child.gameObject.name == "Powerup" || child.gameObject.name == "Obstacle")
+                {
+                    foreach (Transform powerupOrObstacle in child)
+                    {
+                        Destroy(powerupOrObstacle.gameObject);
+                    }
+                }
+
             }
         }
         group.SetActive(false);
@@ -181,6 +191,16 @@ public class MoveSprites : MonoBehaviour
         //Debug.Log("deactivating element group: " + group.name);
         
         // move group to deactivate on next update
+
+        SpriteGroupData groupData = group.GetComponent<SpriteGroupData>();
+
+        // spawn powerups and obstacles if this is a group that does so
+
+        if (groupData != null)
+        {
+            groupData.DespawnObjects();
+        }
+
         toDeactivate.Add(group);
     }
 
@@ -246,7 +266,6 @@ public class MoveSprites : MonoBehaviour
         foreach (GameObject group in roomsToRemove)
         {
             Deactivate(group);
-
             
         }
 
