@@ -1,6 +1,47 @@
 fileFormatVersion: 2
 guid: 2d4b18617ba3cd14588e9b9f6261f2ba
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Disguise_0
+    21300002: Disguise_1
+    21300004: Disguise_2
+    21300006: Disguise_3
+    21300008: Disguise_4
+    21300010: Disguise_5
+    21300012: Disguise_6
+    21300014: Disguise_7
+    21300016: Disguise_8
+    21300018: Disguise_9
+    21300020: Disguise_10
+    21300022: Disguise_11
+    21300024: Disguise_12
+    21300026: Disguise_13
+    21300028: Disguise_14
+    21300030: Disguise_15
+    21300032: Disguise_16
+    21300034: Disguise_17
+    21300036: Disguise_18
+    21300038: Disguise_19
+    21300040: Disguise_20
+    21300042: Disguise_21
+    21300044: Disguise_22
+    21300046: Disguise_23
+    21300048: Disguise_24
+    21300050: Disguise_25
+    21300052: Disguise_26
+    21300054: Disguise_27
+    21300056: Disguise_28
+    21300058: Disguise_29
+    21300060: Disguise_30
+    21300062: Disguise_31
+    21300064: Disguise_32
+    21300066: Disguise_33
+    21300068: Disguise_34
+    21300070: Disguise_35
+    21300072: Disguise_36
+    21300074: Disguise_37
+    21300076: Disguise_38
+    21300078: Disguise_39
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -23,24 +64,424 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  spritePixelsToUnits: 512
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Disguise_0
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 7148
+        width: 472
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_1
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 7148
+        width: 423
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_2
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 7148
+        width: 352
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_3
+      rect:
+        serializedVersion: 2
+        x: 2867
+        y: 7148
+        width: 352
+        height: 824
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_4
+      rect:
+        serializedVersion: 2
+        x: 3731
+        y: 7148
+        width: 328
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_5
+      rect:
+        serializedVersion: 2
+        x: 4611
+        y: 7148
+        width: 319
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_6
+      rect:
+        serializedVersion: 2
+        x: 5466
+        y: 7148
+        width: 336
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_7
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 5972
+        width: 336
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_8
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 5972
+        width: 471
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_9
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 5972
+        width: 472
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_10
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 5972
+        width: 432
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_11
+      rect:
+        serializedVersion: 2
+        x: 3739
+        y: 5972
+        width: 352
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_12
+      rect:
+        serializedVersion: 2
+        x: 4603
+        y: 5972
+        width: 359
+        height: 824
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_13
+      rect:
+        serializedVersion: 2
+        x: 5458
+        y: 5972
+        width: 344
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_14
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 4804
+        width: 320
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_15
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 4804
+        width: 335
+        height: 784
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_16
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 4804
+        width: 328
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_17
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 4796
+        width: 440
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_18
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 4804
+        width: 472
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_19
+      rect:
+        serializedVersion: 2
+        x: 4563
+        y: 4804
+        width: 423
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_20
+      rect:
+        serializedVersion: 2
+        x: 5434
+        y: 4804
+        width: 424
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_21
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 3732
+        width: 336
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_22
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 3676
+        width: 567
+        height: 784
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_23
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 3740
+        width: 416
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_24
+      rect:
+        serializedVersion: 2
+        x: 2755
+        y: 3836
+        width: 592
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_25
+      rect:
+        serializedVersion: 2
+        x: 3651
+        y: 3732
+        width: 488
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_26
+      rect:
+        serializedVersion: 2
+        x: 4571
+        y: 3700
+        width: 375
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_27
+      rect:
+        serializedVersion: 2
+        x: 5402
+        y: 3660
+        width: 496
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_28
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2452
+        width: 400
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_29
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 2452
+        width: 328
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_30
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 2452
+        width: 472
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_31
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 2452
+        width: 432
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_32
+      rect:
+        serializedVersion: 2
+        x: 3747
+        y: 2452
+        width: 344
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_33
+      rect:
+        serializedVersion: 2
+        x: 4683
+        y: 2452
+        width: 311
+        height: 784
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_34
+      rect:
+        serializedVersion: 2
+        x: 5530
+        y: 2452
+        width: 320
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_35
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1276
+        width: 304
+        height: 784
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_36
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1276
+        width: 360
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_37
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 1276
+        width: 367
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_38
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 1276
+        width: 440
+        height: 688
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Disguise_39
+      rect:
+        serializedVersion: 2
+        x: 3651
+        y: 1276
+        width: 464
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

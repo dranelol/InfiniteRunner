@@ -1,6 +1,9 @@
 fileFormatVersion: 2
 guid: c43c47245b135dc4794701201563fc8c
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: PaparazziSheet_0
+    21300002: PaparazziSheet_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

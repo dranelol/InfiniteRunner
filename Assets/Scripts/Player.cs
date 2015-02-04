@@ -40,6 +40,7 @@ public class Player : MonoBehaviour
     public int Disguises;
 
     public float SideBlinderDuration = 3.0f;
+    public float DisguiseDuration = 3.0f;
 
 
     public bool SideBlindersActive = false;
@@ -48,14 +49,16 @@ public class Player : MonoBehaviour
 
     bool isCorrectingX;
     float timeStartCorrectingX;
+
+    float endDisguise = 0.0f;
+    float endSideBlinders = 0.0f;
+
+    public bool DisguiseActive = false;
     void Awake()
     {
         animator = GetComponent<Animator>();
 
         
-        
-        
-
         paused = true;
 
         gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
@@ -176,6 +179,30 @@ public class Player : MonoBehaviour
             {
                 animator.speed = 1.0f;
             }
+
+            if (DisguiseActive == true)
+            {
+                if (Time.time >= endDisguise)
+                {
+                    // deactivate disguise
+
+                    DisguiseActive = false;
+                    Debug.Log("disguise deactive");
+                    animator.SetBool("disguise", false);
+                }
+            }
+
+            if (SideBlindersActive == true)
+            {
+                if (Time.time >= endSideBlinders)
+                {
+                    // deactivate disguise
+
+                    SideBlindersActive = false;
+                    Debug.Log("side blinders deactive");
+                    animator.SetBool("sideBlinders", false);
+                }
+            }
         }
 
         if (isCorrectingX == false && Mathf.Abs(playerStartX - transform.position.x) > 1.5f)
@@ -234,17 +261,39 @@ public class Player : MonoBehaviour
 
         if (powerup == "Disguise")
         {
-            Disguises += 1;
+            UseDisguise();
         }
 
         if(powerup == "SideBlinders")
         {
-            SideBlinders += 1;
+            UseSideBlinders();
         }
+    }
+
+    public void UseDisguise()
+    {
+        Debug.Log("disguise");
+
+        if (endDisguise <= Time.time)
+        {
+            // disguise not enabled
+            Debug.Log("first disguise");
+            endDisguise = Time.time + DisguiseDuration;
+        }
+
+        else 
+        {
+            // disguise already enabled, add time to it
+            endDisguise = endDisguise + DisguiseDuration;
+        }
+        DisguiseActive = true;
+
+        animator.SetBool("disguise", true); 
     }
 
     public void UseSideBlinders()
     {
+        /*
         if(SideBlinders >0 && SideBlindersActive == false)
         {
             SideBlindersActive = true;
@@ -252,6 +301,26 @@ public class Player : MonoBehaviour
             Debug.Log("Side blinders used!");
             StartCoroutine(SideBlinderActivate());
         }
+         */
+
+        Debug.Log("sideblinders");
+
+        if (endSideBlinders <= Time.time)
+        {
+            // side blinders not enabled
+            Debug.Log("first side blinders");
+            endSideBlinders = Time.time + SideBlinderDuration;
+        }
+
+        else
+        {
+            // side blinders already enabled, add time to it
+            endSideBlinders = endDisguise + SideBlinderDuration;
+        }
+
+        SideBlindersActive = true;
+
+        animator.SetBool("sideBlinders", true); 
     }
     IEnumerator SideBlinderActivate()
     {
