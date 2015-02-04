@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c43c47245b135dc4794701201563fc8c
+guid: 37bf57098d04ee4428719849c8b7f238
 TextureImporter:
   serializedVersion: 2
   mipmaps:
@@ -36,31 +36,21 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 400
+  spritePixelsToUnits: 200
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: PaparazziSheet_0
+    - name: Disguise_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 830
-        width: 462
-        height: 629
+        x: 32
+        y: 20
+        width: 186
+        height: 182
       alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: PaparazziSheet_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 201
-        width: 462
-        height: 625
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
