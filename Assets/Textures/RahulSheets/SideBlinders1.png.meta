@@ -1,0 +1,446 @@
+fileFormatVersion: 2
+guid: b11f3061c62b2eb4b9bd7bf635f2fcb3
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 512
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SideBlinders1_0
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 7148
+        width: 472
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_1
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 7148
+        width: 423
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_2
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 7148
+        width: 352
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_3
+      rect:
+        serializedVersion: 2
+        x: 2867
+        y: 7148
+        width: 352
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_4
+      rect:
+        serializedVersion: 2
+        x: 3731
+        y: 7148
+        width: 312
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_5
+      rect:
+        serializedVersion: 2
+        x: 4611
+        y: 7148
+        width: 295
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_6
+      rect:
+        serializedVersion: 2
+        x: 5466
+        y: 7148
+        width: 336
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_7
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 5972
+        width: 336
+        height: 740
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_8
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 5972
+        width: 471
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_9
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 5972
+        width: 472
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_10
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 5972
+        width: 432
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_11
+      rect:
+        serializedVersion: 2
+        x: 3739
+        y: 5972
+        width: 352
+        height: 740
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_12
+      rect:
+        serializedVersion: 2
+        x: 4603
+        y: 5972
+        width: 359
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_13
+      rect:
+        serializedVersion: 2
+        x: 5458
+        y: 5972
+        width: 320
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_14
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 4804
+        width: 296
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_15
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 4804
+        width: 335
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_16
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 4804
+        width: 328
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_17
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 4796
+        width: 440
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_18
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 4804
+        width: 472
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_19
+      rect:
+        serializedVersion: 2
+        x: 4563
+        y: 4804
+        width: 423
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_20
+      rect:
+        serializedVersion: 2
+        x: 5434
+        y: 4804
+        width: 424
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_21
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 3732
+        width: 336
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_22
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 3676
+        width: 567
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_23
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 3740
+        width: 416
+        height: 812
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_24
+      rect:
+        serializedVersion: 2
+        x: 2755
+        y: 3836
+        width: 592
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_25
+      rect:
+        serializedVersion: 2
+        x: 3651
+        y: 3732
+        width: 488
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_26
+      rect:
+        serializedVersion: 2
+        x: 4571
+        y: 3700
+        width: 375
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_27
+      rect:
+        serializedVersion: 2
+        x: 5402
+        y: 3660
+        width: 496
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_28
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2452
+        width: 400
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_29
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 2452
+        width: 304
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_30
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 2452
+        width: 472
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_31
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 2452
+        width: 432
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_32
+      rect:
+        serializedVersion: 2
+        x: 3747
+        y: 2452
+        width: 344
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_33
+      rect:
+        serializedVersion: 2
+        x: 4683
+        y: 2452
+        width: 311
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_34
+      rect:
+        serializedVersion: 2
+        x: 5530
+        y: 2452
+        width: 320
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_35
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1276
+        width: 304
+        height: 740
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_36
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1276
+        width: 359
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_37
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 1276
+        width: 367
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_38
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 1276
+        width: 440
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideBlinders1_39
+      rect:
+        serializedVersion: 2
+        x: 3651
+        y: 1276
+        width: 464
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

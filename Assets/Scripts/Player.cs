@@ -189,6 +189,7 @@ public class Player : MonoBehaviour
                     DisguiseActive = false;
                     Debug.Log("disguise deactive");
                     animator.SetBool("disguise", false);
+                    gameManager.DisguiseLevel = 0.0f;
                 }
             }
 
@@ -286,9 +287,14 @@ public class Player : MonoBehaviour
             // disguise already enabled, add time to it
             endDisguise = endDisguise + DisguiseDuration;
         }
-        DisguiseActive = true;
 
-        animator.SetBool("disguise", true); 
+        DisguiseActive = true;
+        SideBlindersActive = false;
+        endSideBlinders = 0.0f;
+
+        animator.SetBool("disguise", true);
+        animator.SetBool("sideBlinders", false);
+        gameManager.DisguiseLevel = 0.5f;
     }
 
     public void UseSideBlinders()
@@ -315,11 +321,16 @@ public class Player : MonoBehaviour
         else
         {
             // side blinders already enabled, add time to it
-            endSideBlinders = endDisguise + SideBlinderDuration;
+            endSideBlinders = endSideBlinders + SideBlinderDuration;
         }
 
-        SideBlindersActive = true;
 
+        SideBlindersActive = true;
+        DisguiseActive = false;
+        endDisguise = 0.0f;
+        gameManager.DisguiseLevel = 0.0f;
+
+        animator.SetBool("disguise", false);
         animator.SetBool("sideBlinders", true); 
     }
     IEnumerator SideBlinderActivate()

@@ -22,9 +22,10 @@ public class Mirror : MonoBehaviour
             if(col.gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("RahulWalk 0"))
             {
                 col.gameObject.GetComponent<Animator>().SetTrigger("hairFlip");
+
             }
         }
 
-        gameObject.SetActive(false);
+        
     }
 }

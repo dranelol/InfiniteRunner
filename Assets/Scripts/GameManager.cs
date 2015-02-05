@@ -39,9 +39,6 @@ public class GameManager : MonoBehaviour
 
     public GameObject RestartButton;
 
-    public GameObject bodyDoubleButton;
-    public GameObject sideBlinderButton;
-    public GameObject disguiseButton;
 
     public int Score;
 
@@ -241,9 +238,6 @@ public class GameManager : MonoBehaviour
         yield return null;
     }
 
-    
-
-    
 
     void SpeedChange(float percentageChange)
     {
@@ -285,34 +279,11 @@ public class GameManager : MonoBehaviour
         
         paused = true;
 
-        bodyDoubleButton.GetComponent<UISprite>().enabled = false;
-        bodyDoubleButton.GetComponent<BoxCollider>().enabled = false;
-        bodyDoubleButton.GetComponentInChildren<UILabel>().enabled = false;
-
-        disguiseButton.GetComponent<UISprite>().enabled = false;
-        disguiseButton.GetComponent<BoxCollider>().enabled = false;
-        disguiseButton.GetComponentInChildren<UILabel>().enabled = false;
-
-        sideBlinderButton.GetComponent<UISprite>().enabled = false;
-        sideBlinderButton.GetComponent<BoxCollider>().enabled = false;
-        sideBlinderButton.GetComponentInChildren<UILabel>().enabled = false;
     }
 
     void UnPause()
     {
         paused = false;
-
-        bodyDoubleButton.GetComponent<UISprite>().enabled = true;
-        bodyDoubleButton.GetComponent<BoxCollider>().enabled = true;
-        bodyDoubleButton.GetComponentInChildren<UILabel>().enabled = true;
-
-        disguiseButton.GetComponent<UISprite>().enabled = true;
-        disguiseButton.GetComponent<BoxCollider>().enabled = true;
-        disguiseButton.GetComponentInChildren<UILabel>().enabled = true;
-
-        sideBlinderButton.GetComponent<UISprite>().enabled = true;
-        sideBlinderButton.GetComponent<BoxCollider>().enabled = true;
-        sideBlinderButton.GetComponentInChildren<UILabel>().enabled = true;
     }
 
     void Lose()
@@ -334,11 +305,6 @@ public class GameManager : MonoBehaviour
         Application.LoadLevel(Application.loadedLevel);
     }
 
-    public void UseDisguise()
-    {
-        player.Disguises -= 1;
-        DisguiseLevel = 0.5f;
-    }
 
     public void UseBodyDouble()
     {
