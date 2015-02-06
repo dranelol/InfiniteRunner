@@ -7,7 +7,6 @@ public class Player : MonoBehaviour
 
     bool paused;
 
-    public float MaxSpeed = 6.0f;
 
     bool grounded = true;
 
