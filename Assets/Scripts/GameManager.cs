@@ -49,6 +49,10 @@ public class GameManager : MonoBehaviour
     public List<GameObject> Powerups = new List<GameObject>();
     public List<GameObject> Obstacles = new List<GameObject>();
 
+    public AudioSource MenuMusic;
+    public AudioSource GameMusicFirst;
+    public AudioSource GameMusicLoop;
+
 
     Player player;
     GameObject crowd;
@@ -59,6 +63,7 @@ public class GameManager : MonoBehaviour
 
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         crowd = GameObject.FindGameObjectWithTag("Crowd");
+
         
 
     }
@@ -75,6 +80,8 @@ public class GameManager : MonoBehaviour
         playerSpeedLerpGoal = 2.0f;
 
         crowdSpeedLerpGoal = 1.5f;
+
+        MenuMusic.Play();
 	}
 
 
@@ -277,12 +284,18 @@ public class GameManager : MonoBehaviour
     void Pause()
     {
         
+
         paused = true;
 
     }
 
     void UnPause()
     {
+        MenuMusic.Stop();
+        GameMusicFirst.Play();
+
+        StartCoroutine(StartLoopMusic());
+
         paused = false;
     }
 
@@ -301,6 +314,9 @@ public class GameManager : MonoBehaviour
         RestartButton.GetComponent<UISprite>().enabled = false;
         RestartButton.GetComponent<BoxCollider>().enabled = false;
         RestartButton.GetComponentInChildren<UILabel>().enabled = false;
+
+        GameMusicFirst.Stop();
+        GameMusicLoop.Stop();
 
         Application.LoadLevel(Application.loadedLevel);
     }
@@ -364,4 +380,15 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+
+    IEnumerator StartLoopMusic()
+    {
+        yield return new WaitForSeconds(GameMusicFirst.clip.length);
+
+        GameMusicFirst.Stop();
+        GameMusicLoop.Play();
+
+        yield return null;
+    }
+
 }
